@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+* { box-sizing: border-box;}
+
+body{
+    background-image: url(airport.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

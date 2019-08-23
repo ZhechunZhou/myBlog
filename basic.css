@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+* { box-sizing: border-box;}
+
+h1, h2, h3{
+    font-family: 'Crete Round';
+}
+
+h1{
+    color: white;
+    background-color: rgb(222, 31, 66);
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+a{
+    color: rgb(180, 31, 66);
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(222, 31, 66);
+    margin: -10px;
+    margin-bottom: 0px;
+}
+
+nav > ul {
+    background-color: rgb(222, 31, 66);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    color: rgb(180, 31, 66);
+    text-decoration: none;
+    font-family: 'Karla';
+}
+
+nav > ul > li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav > ul > li > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav > ul > li > form{
+    padding: 15px;
+}
+
+input,button {
+    border:none;
+    outline:none;
+}
+
+nav > ul > li > form > input{
+    color: white;
+    height: 29px;
+    border:2px solid rgb(197, 70, 74);
+    border-radius: 5px 0 0 5px;
+    background:transparent;
+    width: 180px;
+    margin-right: 0;
+}
+
+nav > ul > li > form > button {
+    color: white;
+    height: 29px;
+    background: rgb(197, 70, 74);
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    margin:0;
+    cursor: pointer;
+    float: right;
+}
+
+nav > ul > li > a:hover {
+    background-color: rgb(180, 31, 66);
+}
+
+nav > ul > li > ul{
+    display: none;
+    position: absolute;
+    color: white;
+    list-style: none;
+    background-color: rgba(222, 31, 66, 0.6);
+    padding: 0;
+}
+
+
+nav > ul > li > ul > li > a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li:hover > ul { display: block;}
+nav > ul > li:hover > ul > li:hover {
+    background-color: rgba(180, 31, 66, 0.6);
+}
+
+section{
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+section > h1{
+    margin-left: -50px;
+}
+
+.logo{
+    color: white;
+    display: inline-block;
+    font-family: 'Rock Salt';
+    font-size: 16px;
+    line-height: 16px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > section{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.social{
+    font-size: 30px;
+}
+
+button:not(.image_button) {
+    color: white;
+    height: 34px;
+    background: rgb(197, 70, 74);
+    border-radius: 5px 5px 5px 5px;
+    width: 100px;
+    cursor: pointer;
+    float: center;
+    font-size: 18px;
+    padding: 5px;
+    float: right;
+}
+
+button:not(.image_button) > a {
+    color: white;
+}
+
+button:not(.image_button) :hover {
+    background-color: rgb(180, 31, 66);
+    color: red;
+}

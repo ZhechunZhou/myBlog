@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HCI Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="basic.css">
+   <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="fa fa-graduation-cap"><span class="logo">Zhechun Zhou's blog</span></a></li>
+                <li><a href="homepage.html"><span class="fa fa-home" aria-hidden="true"></span>Home</a></li>
+                <li><a href="#"><span class="fa fa-book">read my blog</a></li>
+                <li><a href=""><span class="fa fa-user"></span>Contact me</a>
+                    <ul>
+                        <li><a href="#">error report</a></li>
+                        <li><a href="#">suggestions</a></li>
+                        <li><a href="https://www.instagram.com/cooking_randomly/">instagram</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="https://www.instagram.com/cooking_randomly/"><span class="fa fa-info-circle"></span>about me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="topics">
+        <h1>robot interaction simulator</h1>
+        <div class="choices">
+            <div class="choice">
+                <button type="submit" class="image_button" onclick="chooseGame()"><img src="nao_wave.png" alt="Submit"></button>
+                <h4>Click the image <br>to play a random game</h4>
+            </div>
+            <div class="choice">
+                <button type="submit" class="image_button" onclick="chooseFood()"><img src="food.png" alt="Submit"></button>
+                <h4>Click the image <br>to see a random dish</h4>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+function chooseGame() {
+  window.location.href = "airport_startGame.html";
+}
+function chooseFood() {
+  window.location.href = "https://www.instagram.com/cooking_randomly/";
+}
+</script>
+
+</html>

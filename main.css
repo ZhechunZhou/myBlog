@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+* { box-sizing: border-box;}
+
+.highlight{
+    height: 600px;
+    background-image: url(what-if.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topics{
+    margin: 0px 80px auto auto;
+    background-color: lightgrey;
+    padding: 50px 40px;
+    width: 1300px;
+}
+
+
+.choices{
+    text-align: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.choice{
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 250px;
+    height: 240px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.form{
+    text-align: center;
+    margin: 30px;
+}
+
+.image_button {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.image_button :hover {
+    background-color: rgb(104,104,104);
+}
